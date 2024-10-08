@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width = device-width, initial-scale=1.0">
+		
+		<title>Chapter 4: Building Web Forms</title>
+	</head>
+	<body>
+		<header>
+			<img src="images/eye.jpg" alt="Company logo" title="Dreamy-Eye Inc.">
+			<h1>Welcome to Dreamy-Eye Inc.</h1>
+			<hr>
+		</header>
+		<nav>
+			<a href="chapter04.html">Home</a>
+			<a href="contact.html">Contact us</a>
+			<a href="Dreameye.html">About us</a>
+		</nav>
+		<main>
+			<br>
+			<fieldset>
+				<legend>Personal Information</legend>
+					<div style="display: flex; flex direction: row; margin-top: 5px;">
+						<div style="margin-right: 5px">
+							<label>First Name
+								<input type="text" Name="firstname" placeholder="First Name" size=30>
+							</Label>
+						</div>
+						<div>
+							<label>Last Name
+								<input type="text" Name="lastname" placeholder="Last Name" size=30 required>
+							</Label>
+						</div>
+					</div>
+					<div style="display: flex; flex direction: row; margin-top: 5px;">
+						<div style="margin-right: 5px">
+							<label>Date of birth
+								<input type="Date" Name="DOB">
+							</Label>
+						</div>
+						
+						<div>
+							<label>Social Security ID
+								<input type="text" Name="SSN" placeholder="SSID" size=30>
+							</Label>
+						</div>
+					</div>
+					<div style="display: flex; flex direction: row; margin-top: 5px;">
+						<div style="margin-right: 5px">
+							<label>Telephone number
+								<input type="tel" name="tel" placeholder="0412345678">
+							</label>
+						</div>
+						<div style="margin-right: 5px">
+							<label>Email Address
+								<input type="email" name="email" placeholder="youremail@domain.com">
+							</label>
+						</div>
+					</div>
+						
+			</fieldset>
+		</main>
+	</body>
+</html>

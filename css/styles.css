@@ -1,0 +1,25 @@
+p{
+	font-family: Tahoma;
+	font-size: 12px;
+	color: black;
+	text-align: justify;
+}
+
+h1{
+	font-size: 36px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: blue;
+	font-family: Arial;
+	text-align: center;
+	color: green;
+}
+h2{
+	font-size: 24px;
+	border-width: 5px;
+	border-style: dotted;
+	border-color: gray;
+	font-family: Arial;
+	text-align: right;
+	color: blue;
+}
